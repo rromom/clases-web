@@ -1,40 +1,18 @@
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar');
-const argv = require('yargs').
-command('listar', 'Imprimer en consola la tabla de multiplicar', {
-        base: {
-            demand: true,
-            alias: 'b'
-        },
-        limite: {
-            alias: 'l',
-            default: 10
-        }
-    })
-    .command('crear', 'crear un archivo de la tabla de multiplicar', {
-        base: {
-            demand: true,
-            alias: 'b'
-        },
-        limite: {
-            alias: 'l',
-            default: 10
-        }
-    })
-    .help()
-    .argv;
-
+const colors = require('colors')
+const argv = require('./config/yargs').argv
 
 let comando = argv._[0];
 let base = argv.base;
 let limite = argv.limite;
 switch (comando) {
     case 'listar':
-        listarTabla(base, limite).then(msg => console.log(msg)).catch(err => console.log(err.name, err.message))
+        listarTabla(base, limite).then(msg => console.log(colors.blue(msg))).catch(err => console.log(colors.red(err.name, err.message)))
         break;
     case 'crear':
         crearArchivo(base, limite)
-            .then(msg => console.log(msg))
-            .catch(err => console.log(err.name, err.message))
+            .then(msg => console.log(colors.blue(msg)))
+            .catch(err => console.log(colors.red(err.name, err.message)))
         break;
     default:
         console.log('comando no valido');
