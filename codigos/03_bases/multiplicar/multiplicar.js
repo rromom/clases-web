@@ -1,29 +1,31 @@
 //Clase donde se multiplcia y guarda los datos
 const { promises: fs } = require('fs');
 
-let listarTabla = (base, limite) => {
-    new Promise((resolve, reject) => {
-        if (!Number(base)) {
-            reject(`la base ${base} no es un numero`);
-            return;
-        }
-
-        for (let i = 0; i < limite; i++) {
-            mostr
-
-        }
-
-    });
-}
-
-
-let crearArchivo = async(base) => {
+let listarTabla = async(base, limite) => {
     if (!Number(base)) {
         throw new Error(`el valor  de la base  ${base} no es valido`)
     }
+    if (!Number(limite)) {
+        throw new Error(`el valor  del limite  ${limite} no es valido`)
+    }
+    data = ''
+    for (let i = 1; i <= limite; i++) {
+        data += `${base} x ${i} =  ${base * i}\n`;
+    }
+    return data;
+}
+
+
+let crearArchivo = async(base, limite) => {
+    if (!Number(base)) {
+        throw new Error(`el valor  de la base  ${base} no es valido`)
+    }
+    if (!Number(limite)) {
+        throw new Error(`el valor  del limite  ${limite} no es valido`)
+    }
     let data = '';
 
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= limite; i++) {
         data += `${base} x ${i} =  ${base * i}\n`;
     }
 
@@ -35,5 +37,6 @@ let crearArchivo = async(base) => {
 }
 
 module.exports = {
-    crearArchivo
+    crearArchivo,
+    listarTabla
 }
