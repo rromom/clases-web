@@ -1,0 +1,232 @@
+PWD c:\Users\Ricardo\Desktop\clases web\node\latex
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\informe_02.tex
+OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.log
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
+INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
+OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT imagenes\ups1.png
+INPUT .\imagenes\ups1.png
+OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.pdf
+INPUT .\imagenes\ups1.png
+INPUT .\imagenes\ups1.png
+INPUT .\imagenes\ups1.png
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.toc
+INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.toc
+OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.toc
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT codigo\let-var.js
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT codigo\let-var.js
+INPUT codigo\let-var.js
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tctt0800.tfm
+INPUT imagenes\1.PNG
+INPUT .\imagenes\1.PNG
+INPUT .\imagenes\1.PNG
+INPUT .\imagenes\1.PNG
+INPUT .\imagenes\1.PNG
+INPUT codigo\let-var.js
+INPUT codigo\let-var.js
+INPUT codigo\let-var.js
+INPUT imagenes\2.PNG
+INPUT .\imagenes\2.PNG
+INPUT .\imagenes\2.PNG
+INPUT .\imagenes\2.PNG
+INPUT .\imagenes\2.PNG
+INPUT codigo\let-var.js
+INPUT codigo\let-var.js
+INPUT codigo\let-var.js
+INPUT imagenes\3.PNG
+INPUT .\imagenes\3.PNG
+INPUT .\imagenes\3.PNG
+INPUT .\imagenes\3.PNG
+INPUT .\imagenes\3.PNG
+INPUT codigo\templates.js
+INPUT codigo\templates.js
+INPUT codigo\templates.js
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcbx1000.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT codigo\templates.js
+INPUT codigo\templates.js
+INPUT codigo\templates.js
+INPUT imagenes\4.PNG
+INPUT .\imagenes\4.PNG
+INPUT .\imagenes\4.PNG
+INPUT .\imagenes\4.PNG
+INPUT .\imagenes\4.PNG
+INPUT codigo\templates.js
+INPUT codigo\templates.js
+INPUT codigo\templates.js
+INPUT imagenes\5.PNG
+INPUT .\imagenes\5.PNG
+INPUT .\imagenes\5.PNG
+INPUT .\imagenes\5.PNG
+INPUT .\imagenes\5.PNG
+INPUT codigo\destructuracion.js
+INPUT codigo\destructuracion.js
+INPUT codigo\destructuracion.js
+INPUT imagenes\6.PNG
+INPUT .\imagenes\6.PNG
+INPUT .\imagenes\6.PNG
+INPUT .\imagenes\6.PNG
+INPUT .\imagenes\6.PNG
+INPUT codigo\destructuracion.js
+INPUT codigo\destructuracion.js
+INPUT codigo\destructuracion.js
+INPUT imagenes\7.PNG
+INPUT .\imagenes\7.PNG
+INPUT .\imagenes\7.PNG
+INPUT .\imagenes\7.PNG
+INPUT .\imagenes\7.PNG
+INPUT codigo\flecha.js
+INPUT codigo\flecha.js
+INPUT codigo\flecha.js
+INPUT imagenes\8.PNG
+INPUT .\imagenes\8.PNG
+INPUT .\imagenes\8.PNG
+INPUT .\imagenes\8.PNG
+INPUT .\imagenes\8.PNG
+INPUT codigo\flecha.js
+INPUT codigo\flecha.js
+INPUT codigo\flecha.js
+INPUT imagenes\9.PNG
+INPUT .\imagenes\9.PNG
+INPUT .\imagenes\9.PNG
+INPUT .\imagenes\9.PNG
+INPUT .\imagenes\9.PNG
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT imagenes\10.PNG
+INPUT .\imagenes\10.PNG
+INPUT .\imagenes\10.PNG
+INPUT .\imagenes\10.PNG
+INPUT .\imagenes\10.PNG
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT codigo\callbacks2.js
+INPUT imagenes\11.PNG
+INPUT .\imagenes\11.PNG
+INPUT .\imagenes\11.PNG
+INPUT .\imagenes\11.PNG
+INPUT .\imagenes\11.PNG
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT codigo\async-await.js
+INPUT imagenes\12.PNG
+INPUT .\imagenes\12.PNG
+INPUT .\imagenes\12.PNG
+INPUT .\imagenes\12.PNG
+INPUT .\imagenes\12.PNG
+INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1000.pk
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1000.pk
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbsy10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbsy10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt8.pfb
