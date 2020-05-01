@@ -1,7 +1,7 @@
-PWD c:\Users\Ricardo\Desktop\clases web\node\latex
+PWD c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02
 INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\informe_02.tex
-OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.log
+INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\informe_02.tex
+OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.log
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
@@ -34,9 +34,9 @@ INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\list
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
-INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
-OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
+INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.aux
+INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.aux
+OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.aux
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -50,7 +50,7 @@ INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmc
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT imagenes\ups1.png
 INPUT .\imagenes\ups1.png
-OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.pdf
+OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.pdf
 INPUT .\imagenes\ups1.png
 INPUT .\imagenes\ups1.png
 INPUT .\imagenes\ups1.png
@@ -60,9 +60,9 @@ INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr
 INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.toc
-INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.toc
-OUTPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.toc
+INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.toc
+INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.toc
+OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.toc
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
@@ -207,7 +207,7 @@ INPUT .\imagenes\12.PNG
 INPUT .\imagenes\12.PNG
 INPUT .\imagenes\12.PNG
 INPUT .\imagenes\12.PNG
-INPUT c:\Users\Ricardo\Desktop\clases web\node\latex\build\informe_02.aux
+INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\infome_02\build\informe_02.aux
 INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1000.pk
 INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx1000.pk
 INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
