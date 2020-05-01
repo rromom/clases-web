@@ -12,7 +12,8 @@ const complete = {
 
 const argv = require('yargs')
     .command('create', 'Crear una Tarea', {
-        description
+        description,
+        complete
     })
     .command('update', 'Crear una Tarea', {
         description
