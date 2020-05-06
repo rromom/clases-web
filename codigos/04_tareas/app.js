@@ -10,11 +10,38 @@ switch (command) {
         console.log(task);
         break;
     case 'list':
-        let list = tasks.getlist();
-        for (let task of list) {
-            console.log(color.green(`Descripcion: ${task.description}`));
-            console.log(color.yellow(`Completado: ${task.complete}`));
+        let list;
+        let typeoflist = argv.description;
+        switch (typeoflist) {
+            case 'slopes':
+
+                list = tasks.getlist_slopes();
+                for (let task of list) {
+                    console.log(color.yellow(`Descripcion: ${task.description}`));
+                    console.log(color.red(`Completado: ${task.complete}`));
+                }
+                break;
+            case 'finish':
+                list = tasks.getlist_finish();
+                //  console.log(list);
+                for (let task of list) {
+                    console.log(color.green(`Descripcion: ${task.description}`));
+                    console.log(color.yellow(`Completado: ${task.complete}`));
+                }
+
+                break;
+            case 'all':
+                list = tasks.getlist();
+
+                for (let task of list) {
+                    console.log(color.green(`Descripcion: ${task.description}`));
+                    console.log(color.yellow(`Completado: ${task.complete}`));
+                }
+                break;
+            default:
+                break;
         }
+
         break;
     case 'update':
         let resp = tasks.update(argv.description, argv.complete);

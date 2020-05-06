@@ -15,10 +15,13 @@ const argv = require('yargs')
         description,
         complete
     })
-    .command('update', 'Crear una Tarea', {
+    .command('update', 'Actualiza una Tarea', {
         description
     })
-    .command('clean', 'Crear una Tarea', {
+    .command('clean', 'Elimina una Tarea', {
+        description
+    })
+    .command('list', 'Lista dependiendo de el argumento', {
         description
     })
     .argv;

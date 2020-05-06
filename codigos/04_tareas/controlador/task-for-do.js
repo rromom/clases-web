@@ -30,6 +30,18 @@ let getlist = () => {
     return taskfordo;
 }
 
+let getlist_slopes = () => {
+    load_data();
+    let taskslopes = taskfordo.filter(task => task.complete !== true);
+    return taskslopes;
+}
+
+let getlist_finish = () => {
+    load_data();
+    let taskfinish = taskfordo.filter(task => task.complete !== false);
+    return taskfinish;
+}
+
 let update = (des, completado = true) => {
     load_data();
     //console.log(taskfordo);
@@ -60,5 +72,7 @@ module.exports = {
     create,
     getlist,
     update,
-    deleted
+    deleted,
+    getlist_slopes,
+    getlist_finish
 }
