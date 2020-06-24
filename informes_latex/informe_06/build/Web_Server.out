@@ -1,0 +1,11 @@
+\BOOKMARK [1][-]{section.0.1}{Requisitos}{}% 1
+\BOOKMARK [1][-]{section.0.2}{Server.js}{}% 2
+\BOOKMARK [1][-]{section.0.3}{helpers.js}{}% 3
+\BOOKMARK [1][-]{section.0.4}{Parciales}{}% 4
+\BOOKMARK [2][-]{subsection.0.4.1}{header.hbs}{section.0.4}% 5
+\BOOKMARK [2][-]{subsection.0.4.2}{footer.hbs}{section.0.4}% 6
+\BOOKMARK [2][-]{subsection.0.4.3}{navbar.hbs}{section.0.4}% 7
+\BOOKMARK [2][-]{subsection.0.4.4}{home.hbs}{section.0.4}% 8
+\BOOKMARK [2][-]{subsection.0.4.5}{about.js}{section.0.4}% 9
+\BOOKMARK [1][-]{section.0.5}{Ejecucion}{}% 10
+\BOOKMARK [1][-]{section.0.6}{Repositorio}{}% 11

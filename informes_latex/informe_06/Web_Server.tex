@@ -167,7 +167,7 @@ showstringspaces=false,      % Leerzeichen in Strings anzeigen ?
     \vspace{1cm}
     {\scshape\Large Ingeniería en Ciencias de la Computación \par}
     \vspace{3cm}
-    {\scshape\Huge APLICACIÓN DEL CLIMA \par}
+    {\scshape\Huge WEB SERVER \par}
     \vspace{1cm}
     {\center\includegraphics[width=5cm, height=5cm]{ups1.png}\\}
     \vspace{1cm}
@@ -178,4 +178,130 @@ showstringspaces=false,      % Leerzeichen in Strings anzeigen ?
     \vfill
     {\Large \today \par}
     \end{titlepage} 
+
+    \section{Requisitos}
+    Para crear un web server lo primero que necesitaremos son los módulos express, para arrancar el servidor,
+    \textbf{handlebars} para los parciales y helpers
+    \begin{enumerate}
+      \item \textbf{Peraciales}: Templates o plantillas para los encabezados de las paginas html, a demás son el medio por las que se envían los datos
+      \item \textbf{Helper}: Son funciones o ejecuciones del programa que se necesita corran en ciertas áreas cuando son llamadas
+      
+    \end{enumerate}
+    
+    \textbf{
+    Instalacion Librerias:}
+    \begin{enumerate}
+     \item Iniciar npm con el comando \textbf{npm}
+      \item Instalar la librería \textbf{express} con \textbf{npm install express --save}
+      \item Instalar el módulo \textbf{handlebars} con \textbf{npm install hbs --save}
+      \item Crear una carpeta llamada \textbf{hbs} y dentro de esta un documento llamado \textbf{helpers.js} los cuales almacenaran nuestros helpers para realizar funciones.
+      \item Crear una carpeta \textbf{public } que es donde se almacenan a nuestros archivos estáticos que necesitara express
+      \item Crear una carpeta llamada \textbf{views} y dentro de esta una carpeta llamada \textbf{parciales} y un archivo llamado \textbf{about.hbs} y uno llamado \textbf{home.hbs} que son nuestras páginas home y about con formato html
+      \item Dentro de la carpeta parciales crear los archivos \textbf{footer.hbs} y \textbf{header.hbs} que son templates de las cabecera y pie de página de nuestras páginas html.
+    \end{enumerate}
+   
+   \textbf{Express}
+     \begin{center}
+      \includegraphics[scale=0.5]{exp.png}
+     \end{center}
+    \textbf{Handlebars}
+     \begin{center}
+      \includegraphics[scale=0.1]{hbs.jpg}
+     \end{center}
+     \section{Server.js}
+    
+     \begin{enumerate}
+       \item Para iniciar primero se instancian los módulos de \textbf{express} y hbs además se guarda el módulo de express dentro de una variable llamada \textbf{app}
+       \lstinputlisting[firstline=1,lastline=2,style=htmlcssjs]{codigo/server.js}
+       \item Se inicia la librería de hbs con require
+       \item A demás de eso llamamos al puerto disponible que se nos asigna para poder levantar eln servidor
+       \item Llamamos a nuestro archivo donde se almacenaran los helpers
+       \lstinputlisting[firstline=3,lastline=5,style=htmlcssjs]{codigo/server.js}
+      
+    %-----------------------------------------------
+    \item Utilizamos el comando \textbf{use} para establecer donde esta nuestra carpeta con nuestros archivos estáticos, además con el comando \textbf{\_\_dirname} establecemos la ruta de ejecución del servidor.
+    \item  Utilizamos el comando \textbf{set} para establecer el manejo de los archivos html y especificamos que es con \textbf{hbs}
+    \item el comando \textbf{hbs.registerPartials} nos ayuda a establecer donde almacenaremos nuestros templates.
+    \lstinputlisting[firstline=7,lastline=9,style=htmlcssjs]{codigo/server.js}
+
+    \item Con el comando \textbf{app.get} establecemos un pedido get a nuestro servidor, además con se debe de especificar la dirección a donde hacemos la petición, en este caso \textbf{\/} especifica la dirección raíz,
+    \item con \textbf{res.render} establecemos los datos que deseamos enviar en este caso se enviara a nuestro archivo \textbf{home.hbs} los datos del nombre del usuario, la página y activación(pestañas en el navbar activables)
+    \lstinputlisting[firstline=13,lastline=19,style=htmlcssjs]{codigo/server.js}
+    \item Hacemos otra petición get pero con la dirección \textbf{\/about}
+    \item Esta llamara a nuestro \textbf{about.hbs} y enviara los datos de página y que pestañas del navbar serán activables
+  %-------------------------------------------------
+  \lstinputlisting[firstline=22,lastline=27,style=htmlcssjs]{codigo/server.js}
+  \item \textbf{app.listen()} levanta el puerto donde se dará el servicio.
+  \lstinputlisting[firstline=30,lastline=32,style=htmlcssjs]{codigo/server.js}
+
+\end{enumerate}
+
+\section{helpers.js}
+Ingresamos dentro del archivo \textbf{helpers.js} dentro de nuestra carpeta \textbf{hbs}
+\begin{enumerate}
+  \item se llama al módulo \textbf{hbs} antes ya instalado
+  \lstinputlisting[firstline=1,lastline=1,style=htmlcssjs]{codigo/helpers.js}
+  \item Con el comando \textbf{hbs.registerHelper()} se registra una función que se ejecutara en el html ('frontend') el cual recibe los parámetros del nombre de este helper y retorna un resultado
+  \item En este caso nuestro herlper se llama \textbf{getAnio} y retorna el parámetro del año actual que uno se encuentra.
+  \lstinputlisting[firstline=3,lastline=5,style=htmlcssjs]{codigo/helpers.js}
+  \item Ahora se registraremos un nuevo template llamado \textbf{capitalizar } el cual recibirá un \textbf{string} y se encargara de dar un formato a cada palabra de esta, devolviendo el primer carácter de la palabra en mayúscula y los demás en minúscula
+  \lstinputlisting[firstline=8,lastline=14,style=htmlcssjs]{codigo/helpers.js}
+\end{enumerate}
+
+
+  %------------------------
+
+  \section{Parciales}
+  Debido a q muchas páginas web utilizan los mismos encabezados, los parciales nos ayudan a tener cabeceras y pies de páginas ya estáticos y fáciles de llamar
+  \subsection{header.hbs}
+  Dentro del header tendremos nuestra cabecera la cual será el inicio del documento
+  \lstinputlisting[firstline=1,lastline=12,style=htmlcssjs]{codigo/header.hbs}
+  en nuestra cabecera podemos observar que para él la etiqueta del título llamamos al atributo \textbf{pagina} el cual se envía a través del server en la \textbf{petición get a nuestra dirección raíz}
+  \\
+  \textbf{Nota:}
+  Además es importante recalcar que no estamos usando \textbf{bootstap} al contrario de esto estamos usando un derivado de este que \textbf{bootswatch} diseño \textbf{lux} el cual es amigable al llamar a través de un solo link y sin necesidad de crear carpetas secundarias con estilos \url{https://bootswatch.com/lux/}
+  \\
+  \textbf{Url guía componentes: } \url{https://bootswatch.com/lux/}
+  \\
+  \textbf{url para estilos css: } \url{https://bootswatch.com/4/lux/bootstrap.css}
+  \subsection{footer.hbs}
+  Dentro de \textbf{footer.hbs} tendremos lo que vendría siendo nuestro pie de pagina
+  \lstinputlisting[firstline=1,lastline=17,style=htmlcssjs]{codigo/footer.hbs}
+  \textbf{Nota:}
+  Se puede observar cómo se llamar al helper \textbf{getAnio} el cual nos regresa nuestro año actual
+  \subsection{navbar.hbs}
+  Aquí instanciamos lo que vendría siendo la barra de opciones de nuestra página, este nav bar fue copiado de bootswatch el cual ya nos da con su diseño exclusivo.
+  \\
+  Además, podemos notar que enviamos las variables de activación para saber cuál pestaña u opción deberá prenderse a al estar en cierta página.
+  \lstinputlisting[firstline=1,lastline=28,style=htmlcssjs]{codigo/navbar.hbs}
+  \subsection{home.hbs}
+  Esta página vendría siendo nuestra página principal al arrancar nuestro servidor y mostrarse en el navegador.
+  \lstinputlisting[firstline=1,lastline=13,style=htmlcssjs]{codigo/navbar.hbs}
+  \textbf{Nota:}
+  Podemos apreciar como llamamos a nuestros templetes o parciales como nuestro \textbf{header,navbar y footer}, además podemos observar cómo llamamos a nuestro helper \textbf{capitalizar} y le enviamos el parámetro de \textbf{nombre} antes ya enviado por nuestro \textbf{server.js} a través de una petición get.
+  \subsection{about.js}
+  Así mismo podeos observar nuestro \textbf{about} el cual así mismo llamaremos a nuestros parciales o templetes para optimizar líneas de código html.
+  \lstinputlisting[firstline=1,lastline=8,style=htmlcssjs]{codigo/about.hbs}
+  %---------------------------
+\section{Ejecucion}
+\begin{enumerate}
+  \item Primero ejecutamos el comando \textbf{node server.js}
+  \begin{center}
+    \includegraphics[scale=1]{eje1.PNG}
+   \end{center}
+  \item Luego nos dirijimos dentro del navegador a la direccion que nos muestra como resultado
+  \begin{center}
+    \includegraphics[scale=0.3]{eje2.PNG}
+   \end{center}
+  \item Al dar click en abaout podemos redirigirnos a la ventana about.hbs
+  \begin{center}
+    \includegraphics[scale=0.3]{eje3.PNG}
+   \end{center}
+  \item Y lo mismo al retornar al home
+\end{enumerate}
+\section{Repositorio}
+\textbf{github:} \url{https://github.com/rromom/clases-web/tree/master/codigos/web_server}
+\\
+\textbf{heroku: }\url{https://romo-web-service.herokuapp.com/}
+
 \end{document}

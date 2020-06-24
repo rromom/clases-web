@@ -93,10 +93,10 @@ INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\b
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
+OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.pdf
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
 OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
-OUTPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.pdf
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -117,14 +117,106 @@ INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmt
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT imagenes\exp.png
+INPUT .\imagenes\exp.png
+INPUT .\imagenes\exp.png
+INPUT .\imagenes\exp.png
+INPUT .\imagenes\exp.png
+INPUT imagenes\hbs.jpg
+INPUT .\imagenes\hbs.jpg
+INPUT .\imagenes\hbs.jpg
+INPUT .\imagenes\hbs.jpg
+INPUT .\imagenes\hbs.jpg
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT codigo\server.js
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt8.tfm
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tctt0800.tfm
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\server.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT codigo\helpers.js
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT codigo\header.hbs
+INPUT codigo\header.hbs
+INPUT codigo\header.hbs
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
+INPUT codigo\footer.hbs
+INPUT codigo\footer.hbs
+INPUT codigo\footer.hbs
+INPUT codigo\navbar.hbs
+INPUT codigo\navbar.hbs
+INPUT codigo\navbar.hbs
+INPUT codigo\navbar.hbs
+INPUT codigo\navbar.hbs
+INPUT codigo\navbar.hbs
+INPUT codigo\about.hbs
+INPUT codigo\about.hbs
+INPUT codigo\about.hbs
+INPUT imagenes\eje1.PNG
+INPUT .\imagenes\eje1.PNG
+INPUT .\imagenes\eje1.PNG
+INPUT .\imagenes\eje1.PNG
+INPUT .\imagenes\eje1.PNG
+INPUT imagenes\eje2.PNG
+INPUT .\imagenes\eje2.PNG
+INPUT .\imagenes\eje2.PNG
+INPUT .\imagenes\eje2.PNG
+INPUT .\imagenes\eje2.PNG
+INPUT imagenes\eje3.PNG
+INPUT .\imagenes\eje3.PNG
+INPUT .\imagenes\eje3.PNG
+INPUT .\imagenes\eje3.PNG
+INPUT .\imagenes\eje3.PNG
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.aux
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
 INPUT c:\Users\Ricardo\Desktop\clases web\clases-web\informes_latex\informe_06\build\Web_Server.out
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
+INPUT C:\Users\Ricardo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT C:\Users\Ricardo\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmtt8.pfb
