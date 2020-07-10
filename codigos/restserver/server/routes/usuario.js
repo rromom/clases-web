@@ -10,6 +10,7 @@ const app = express();
 app.get('/', (req, res) => {
     res.json({ 'Hola Mundo': 'hola' });
 });
+
 //obtener datos
 app.get('/usuario', (req, res) => {
     let desde = req.query.desde || 0;
@@ -36,6 +37,7 @@ app.get('/usuario', (req, res) => {
             })
         })
 });
+
 //para crear datos o un recurso en el servidor
 app.post('/usuario', (req, res) => {
     let body = req.body
@@ -62,6 +64,7 @@ app.post('/usuario', (req, res) => {
     });
 
 });
+
 //actualizar datos
 app.put('/usuario/:id', (req, res) => {
     let id = req.params.id;
